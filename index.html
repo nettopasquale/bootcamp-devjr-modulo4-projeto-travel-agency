@@ -132,6 +132,7 @@
                     Do luxo ao econômico!
                 </div>
             </div>
+
             <div class="col">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -143,7 +144,7 @@
                     <li class="nav-item" role="presentation">
                       <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Econômico</button>
                     </li>
-                  </ul>
+                </ul>
                   <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                         <div class="display-6">
@@ -254,50 +255,46 @@
                 </div>
             </div>
 
+            <!-- Titulo  e subtitulo Forms -->
+              <div class="row mt-5">
+                  <div class="col">
+                      <div class="display-5">
+                          Peça uma cotação!
+                      </div>
+                      Veja como é fácil realizar seus sonhos!
+                    </div>
+              </div>
+
             <!-- Form -->
 
-            <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
+            <form class="row g-3 text-start">
+              <div class="col-8 offset-2">
+                <label for="inputNome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome:">
+              </div>
+
+                <div class="col-8 offset-2 col-lg-4">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email:">
                 </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4">
+
+                <div class="col-8 offset-2 col-lg-4 offset-lg-0">
+                  <label for="inputTelefone" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" id="inputTelefone" placeholder="Telefone:">
                 </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+
+                <div class="col-8 offset-2">
+                  <label for="inputAssunto" class="form-label">Assunto</label>
+                  <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto">
                 </div>
-                <div class="col-12">
-                  <label for="inputAddress2" class="form-label">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+
+                <div class="col-8 offset-2">
+                  <label for="inputMensagem" class="form-label">Mensagem</label>
+                  <textarea class="form-control" id="inputMensagem" rows="3"></textarea>
                 </div>
-                <div class="col-md-6">
-                  <label for="inputCity" class="form-label">City</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-4">
-                  <label for="inputState" class="form-label">State</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Sign in</button>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
               </form>
 
